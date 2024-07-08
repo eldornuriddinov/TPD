@@ -13,6 +13,12 @@
     justify-content: center;
     gap: 25px;
     margin-top: 100px;
+
+    @media (max-width:600px) {
+        flex-direction: column;
+        align-items: center;
+        
+    }
 }
 
 .card1 {
@@ -167,3 +173,4 @@
     font-weight: bold;
 
 }
+
